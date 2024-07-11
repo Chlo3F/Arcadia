@@ -1,0 +1,35 @@
+/*ZOOM ANIMAUX*/
+.title-habitat {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    margin-top: 2.5em;
+}
+.title-habitat img {
+    width: 100%;
+    margin-bottom: 1.5em;
+}
+.title-habitat p {
+    width: 80%;
+    text-align: justify;
+}
+.container-animal {
+    display: flex;
+    flex-direction: row;
+}
+.animal img{
+    width: 30em;
+    height: 25em;
+}
+.animal {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5em;
+}
+ul {
+    margin: 1.5em;
+}

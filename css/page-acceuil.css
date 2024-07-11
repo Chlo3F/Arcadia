@@ -1,0 +1,161 @@
+/* PAGE ACCEUIL */
+
+/* HERO */
+.hero-h1 {
+    text-align: center;
+    font-weight: var(--font-bold);
+    width: 100%;
+    height: 5em;
+    padding-top: 1em;
+}
+
+.hero {
+    width: 100%;
+}
+
+/*SERVICES*/
+.container-service {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 3em;
+}
+
+.service-titre {
+    width: 100%;
+    height: 4em;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+.container-service img {
+    width: 100%;
+    max-height: 22em;
+}
+
+.card-service {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20em;
+    text-align: center;
+    margin-bottom: 1em;
+
+}
+
+.card-service h3 {
+    margin-top: 0.5em;
+}
+
+/*HABITATS ET ANIMAUX*/
+.container-animaux {
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+}
+.container-animaux h2 {
+    margin: 1.5em;
+}
+.container-map {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3em;
+    
+}
+.container-map a {
+  
+    position: absolute;
+
+}
+.container-map img {
+
+    width: 100%;
+}
+
+
+.container-profile {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-profile {
+    margin: 1.5em;
+}
+
+.card-profile h3 {
+    margin-top: 1em;
+}
+
+.card-profile img {
+    max-width: 18em;
+    max-height: 18em;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: translateY(0);
+    transition: all 0.3s linear;
+}
+
+.card-profile img:hover {
+    box-shadow: 15px 15px 0px -5px var(--hover-color2);
+    transform: translateY(-0.5rem);
+}
+
+/*AVIS*/
+.container-avis {
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+    display: grid;
+    justify-content: center;
+}
+
+.button-comment {
+    display: grid;
+    justify-items: center;
+    margin: 1.5em;
+}
+/* Responsive = Corriger section Map titre effacé par l'image en pleine 
+page. margin-top et bottom mobilefirst= trop d'espace desktop= pas assez d'espace */
+@media screen and (max-width: 650px ){
+
+.carosuel-item img,
+.carousel-item.active img {
+        width: 70%;
+        margin-left: 15%;
+    }
+    
+}
+/*
+@media screen and (max-width: 776px ){
+.container-map{
+    margin-top: 3em;
+    margin-bottom: 3.5em;
+}
+
+}
+
+@media screen and (max-width: 650px ){
+    .container-map{
+        margin-top: 2em;
+        margin-bottom: 2.5em;
+    }
+    
+    }
+
+    @media screen and (max-width: 500px ){
+        .container-map{
+            margin-top: 1em;
+            margin-bottom: 1.5em;
+        } 
+         
+        
+        } */

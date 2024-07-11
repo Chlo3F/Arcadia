@@ -1,0 +1,64 @@
+/*SERVICES PAGE*/
+
+.service-page h1 {
+    margin: 3em;
+}
+.container-color {
+margin-top: 2.5em;
+margin-bottom: 2.5em;
+}
+.container-service-page img,
+.container-service-page-reverse img {
+    width: 20em;
+    height: 30em;
+}
+.container-service-page {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 3.5em;
+}
+
+.container-service-page-reverse {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 3.5em;
+}
+.service-text {
+    background-color: #fff;
+    width: 18em;
+    height: 15em;
+    text-align: center;
+    padding: 0.8em;
+    padding-top: 1em;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+.service-text h2, 
+.service-text p {
+    color: #000;
+}
+.container-footer1 {
+    margin-top: 3.5em;
+}
+
+/*RESPONSIVE*/
+@media screen and (max-width: 650px) {
+    .container-service-page-reverse {
+        display: flex;
+        flex-direction: column;
+    }
+    .container-service-page {
+        display: flex;
+        flex-direction: column;
+    }
+    .img-service,
+    .service-text {
+        margin: 2.5em;
+    }
+}

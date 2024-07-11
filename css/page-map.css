@@ -1,0 +1,49 @@
+.title-map {
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+}
+/*MAP*/
+.container-map2 {
+    width: 100%;
+    display: flex;
+    margin-bottom: 5.5em;
+    flex-direction: column;
+    align-items: center;
+}
+.container-map2 p {
+    width: 80%;
+    text-align: justify;
+}
+.container-map2 img {
+    width: 80%;
+}
+/*ANIMAUX*/
+
+.container-profile {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-profile {
+    margin: 1.5em;
+}
+
+.card-profile h3 {
+    margin-top: 1em;
+}
+
+.card-profile img {
+    max-width: 18em;
+    max-height: 18em;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: translateY(0);
+    transition: all 0.3s linear;
+}
+
+.card-profile img:hover {
+    box-shadow: 15px 15px 0px -5px var(--hover-color2);
+    transform: translateY(-0.5rem);
+}

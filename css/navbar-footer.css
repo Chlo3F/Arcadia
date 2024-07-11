@@ -1,0 +1,86 @@
+/*NAVBAR*/
+.container-fluid {
+    background-color: var(--background-color-dark);
+}
+
+.logo-header {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.nav-link {
+    color: #fff;
+    letter-spacing: 2.2px;
+    font-size: var(--h2-font-size);
+    transform: translateY(0);
+    transition: all 0.3s linear;
+}
+
+.nav-link:hover {
+    color: var(--hover-color);
+    transform: translateY(-0.5rem);
+}
+
+.nav-item {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.offcanvas {
+    background-color: var(--background-color-dark);
+    /*background: linear-gradient(177deg, rgba(38,70,83,1) 20%, rgba(42,157,143,1) 100%); */
+}
+
+/*FOOTER*/
+.container-icon img {
+    width: 4em;
+    height: 4em;
+    margin: 0.5em;
+}
+
+.container-footer1 {
+    background-color: var(--background-color-medium);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-footer2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-logo-footer a img {
+    width: 150px;
+    height: 150px;
+}
+
+.container-horaire,
+.container-adresse {
+    text-align: center;
+}
+
+.container-horaire,
+.container-adresse,
+.container-logo-footer {
+    margin: 3.5em;
+}
+
+.mention {
+    text-align: center;
+    
+}
+@media  screen and (max-width:715px) {
+.container-horaire,
+.container-adresse,
+.container-logo-footer {
+    margin: 2em;
+    font-size: var(--small-font-size);
+}
+
+    
+}
+/*Responsive ==> Pb texte footer et diaporama avis ( mobile first flèche sur l'image. 
+soit changer taille image ou couleur flèche) */
