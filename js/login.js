@@ -7,8 +7,7 @@ form.email.addEventListener('change', function() {
 
 // Ecouter la modification du password
 form.password.addEventListener('change', function() {
-    
-    validForm(this);
+    validPassword(this);
 });
 
 // Ecouter la soumission du formulaire
