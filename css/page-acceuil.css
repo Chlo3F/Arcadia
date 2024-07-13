@@ -118,9 +118,9 @@
     justify-content: center;
 }
 
-.button-comment {
-    display: grid;
-    justify-items: center;
+.container-button-modal {
+    display: flex;
+    justify-content: center;
     margin: 1.5em;
 }
 /* Responsive = Corriger section Map titre effacé par l'image en pleine 

@@ -79,7 +79,10 @@
     margin: 2em;
     font-size: var(--small-font-size);
 }
-
+.logo-footer {
+    width: 100px;
+    height: 100px;
+}
     
 }
 /*Responsive ==> Pb texte footer et diaporama avis ( mobile first flèche sur l'image. 
