@@ -24,19 +24,20 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
 }
 
 .card-profile {
     margin: 1.5em;
 }
 
-.card-profile h3 {
-    margin-top: 1em;
+.card-profile h4 {
+    margin-top: 1.5em;
 }
 
 .card-profile img {
-    max-width: 18em;
-    max-height: 18em;
+    width: 18em;
+    height: 18em;
     border-radius: 20px;
     cursor: pointer;
     transform: translateY(0);
